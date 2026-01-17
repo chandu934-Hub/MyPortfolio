@@ -142,7 +142,8 @@ SOFTWARE.
 
 ---
 
-**Need help?** Feel free to customize any part of the code to match your style!
+**chanduchandavath934@gmail.com**
+
 
 
 
