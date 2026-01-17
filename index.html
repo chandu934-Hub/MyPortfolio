@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">Portfolio</a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-code"></i>
+            <i class="section-icon fas fa-bolt"></i>
+            <i class="section-icon fas fa-star"></i>
+            <i class="section-icon fas fa-rocket"></i>
+            <i class="section-icon fas fa-circle-notch"></i>
+            <i class="section-icon fas fa-cube"></i>
+            <i class="section-large-icon fas fa-asterisk"></i>
+            <i class="section-large-icon fas fa-hexagon"></i>
+        </div>
+        <div class="container">
+            <div class="hero-content-wrapper">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Chandu chandavath</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text">Full Stack Developer</span>
+                    </p>
+                    <p class="hero-description">
+                        Creating beautiful and functional web experiences
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image">
+                        <div class="image-frame">
+                            <img class="hero-photo" src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768567863/2812_qr1pkw.jpg" alt="Chandu chandavath">
+                        </div>
+                        <div class="orbit-ring"></div>
+                        <div class="orbit-dots">
+                            <div class="orbit-dot dot-1"></div>
+                            <div class="orbit-dot dot-2"></div>
+                            <div class="orbit-dot dot-3"></div>
+                            <div class="orbit-dot dot-4"></div>
+                        </div>
+                        <!-- Floating Icons Around Image -->
+                        <div class="floating-icon icon-1"><i class="fab fa-html5"></i></div>
+                        <div class="floating-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+                        <div class="floating-icon icon-3"><i class="fab fa-js"></i></div>
+                        <div class="floating-icon icon-4"><i class="fab fa-react"></i></div>
+                        <div class="floating-icon icon-5"><i class="fab fa-node"></i></div>
+                        <div class="floating-icon icon-6"><i class="fab fa-python"></i></div>
+                        <div class="floating-icon icon-7"><i class="fas fa-database"></i></div>
+                        <div class="floating-icon icon-8"><i class="fab fa-git-alt"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-leaf"></i>
+            <i class="section-icon fas fa-feather"></i>
+            <i class="section-icon fas fa-sun"></i>
+            <i class="section-icon fas fa-magic"></i>
+            <i class="section-icon fas fa-gem"></i>
+            <i class="section-icon fas fa-sparkles"></i>
+            <i class="section-large-icon fas fa-certificate"></i>
+            <i class="section-large-icon fas fa-circle"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img class="about-photo" src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768568534/WhatsApp_Image_2026-01-16_at_6.30.29_PM_l8bclc.jpg" alt="Chandu chandavath">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Passionate Developer & Creative Thinker</h3>
+                    <p>
+                        I'm a dedicated developer with a passion for creating innovative solutions
+                        and building responsive, user-friendly applications. With expertise in modern
+                        web technologies, I strive to deliver exceptional digital experiences.
+                    </p>
+                    <p>
+                        My journey in web development has equipped me with a diverse skill set and
+                        a problem-solving mindset. I enjoy turning complex problems into simple,
+                        beautiful, and intuitive solutions.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>10+</h4>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-graduation-cap"></i>
+            <i class="section-icon fas fa-book"></i>
+            <i class="section-icon fas fa-award"></i>
+            <i class="section-icon fas fa-laptop-code"></i>
+            <i class="section-icon fas fa-lightbulb"></i>
+            <i class="section-icon fas fa-atom"></i>
+            <i class="section-large-icon fas fa-globe"></i>
+            <i class="section-large-icon fas fa-shield"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <h3>Bachelor of Technology in Computer Science</h3>
+                        <span class="edu-year">2024 - 2028</span>
+                    </div>
+                    <p class="edu-school">Anurag University</p>
+                    <p class="edu-detail">Graduated with honors. Specialized in full stack development, data structures, and with the CGPA of ____ .</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <h3>Intermediate</h3>
+                        <span class="edu-year">2022-2024</span>
+                    </div>
+                    <p class="edu-school">T.T.W.R.J.C (COE),Husnabad</p>
+                    <p class="edu-detail">I have completed my Intermediate education with a score of 782 out of 1000 .</p>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-header">
+                        <h3>Secondary Schooling</h3>
+                        <span class="edu-year">2016-2022</span>
+                    </div>
+                    <p class="edu-school">T.T.W.R School,Eturnagaram</p>
+                    <p class="edu-detail">I have completed my secondary education with the CGPA of 8.8 out of 10.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-layer-group"></i>
+            <i class="section-icon fas fa-microchip"></i>
+            <i class="section-icon fas fa-terminal"></i>
+            <i class="section-icon fas fa-brain"></i>
+            <i class="section-icon fas fa-code-branch"></i>
+            <i class="section-icon fas fa-chart-pie"></i>
+            <i class="section-large-icon fas fa-circle-notch"></i>
+            <i class="section-large-icon fas fa-octagon"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="88"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="82"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-medal"></i>
+            <i class="section-icon fas fa-certificate"></i>
+            <i class="section-icon fas fa-shield-alt"></i>
+            <i class="section-icon fas fa-ribbon"></i>
+            <i class="section-icon fas fa-badge-check"></i>
+            <i class="section-icon fas fa-trophy"></i>
+            <i class="section-large-icon fas fa-star-of-life"></i>
+            <i class="section-large-icon fas fa-crown"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768577738/Screenshot_2026-01-16_210446_j9bsqt.png" alt="Certification 1" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="1">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>HTML5 - The language</h3>
+                        <p>Issued by: Infosys</p>
+                        <span class="cert-date">12-December-2024</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768578114/Screenshot_2026-01-16_211127_tkxr8w.png" alt="Certification 2" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="2">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Introduction to Modren AI</h3>
+                        <p>Issued by: Cisco Networking Academy program</p>
+                        <span class="cert-date">22-November-2025</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768578413/Screenshot_2026-01-16_211624_x42c2g.png" alt="Certification 3" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="3">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>What is software development?</h3>
+                        <p>Issued by: Skillup</p>
+                        <span class="cert-date">24-october-2025</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768578821/Screenshot_2026-01-16_212309_hck2de.png" alt="Certification 4" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="4">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Data science</h3>
+                        <p>Issued by: cognitive class</p>
+                        <span class="cert-date">06-December-2024</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768579534/Screenshot_2026-01-16_213430_yhserl.png" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="5">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Computer Hardware Basics</h3>
+                        <p>Issued by: Cisco Networking Academy program</p>
+                        <span class="cert-date">17-september-2025</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768642733/IMG_20260116_103213_1_h6edb4.jpg" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="6">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Al-Augmented Cybersecurity,Data Privacy, and Quantum-Safe Awareness Workshop"</h3>
+                        <p>Issued by: HUBDATA</p>
+                        <span class="cert-date">09-January-2026</span>
+                    </div>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768643842/Screenshot_2026-01-17_152354_czstce.png" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="7">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>Apply AI: Analyze Customer Reviews</h3>
+                        <p>Issued by: Cisco Networking Academy program</p>
+                        <span class="cert-date">26-November-2025</span>
+                    </div>
+                </div>
+                                <div class="certification-card">
+                    <div class="certification-image">
+                        <img src="https://res.cloudinary.com/dugobvmnb/image/upload/v1768643181/IMG_20260116_150033_1_lwqwtn.jpg" loading="lazy">
+                        <div class="certification-overlay">
+                            <button class="view-btn" data-cert="8">
+                                <i class="fas fa-search-plus"></i> View
+                            </button>
+                        </div>
+                    </div>
+                    <div class="certification-info">
+                        <h3>SIDDIPET DISTRICT ATHLETICS ASSOCIATION 20222</h3>
+                        <p>Issued by: SIDDIPET DISTRICT ATHLETICS ASSOCIATION</p>
+                        <span class="cert-date">17-september-2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-project-diagram"></i>
+            <i class="section-icon fas fa-cubes"></i>
+            <i class="section-icon fas fa-server"></i>
+            <i class="section-icon fas fa-sitemap"></i>
+            <i class="section-icon fas fa-drafting-compass"></i>
+            <i class="section-icon fas fa-code"></i>
+            <i class="section-large-icon fas fa-atom"></i>
+            <i class="section-large-icon fas fa-infinity"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with payment integration</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Collaborative task management with real-time updates</p>
+                        <div class="project-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Data visualization dashboard with interactive charts</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-floating-icons">
+            <i class="section-icon fas fa-paper-plane"></i>
+            <i class="section-icon fas fa-comments"></i>
+            <i class="section-icon fas fa-phone"></i>
+            <i class="section-icon fas fa-envelope-open"></i>
+            <i class="section-icon fas fa-heart"></i>
+            <i class="section-icon fas fa-handshake"></i>
+            <i class="section-large-icon fas fa-comment-dots"></i>
+            <i class="section-large-icon fas fa-wave-square"></i>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>chanduchandavath934@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9347691629</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Hyderabad, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 chandavath chandu. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certification Modal -->
+    <div class="modal" id="certModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+            <img id="modalImage" src="" alt="Certification">
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
