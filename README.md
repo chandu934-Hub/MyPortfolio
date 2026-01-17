@@ -37,12 +37,7 @@ A modern, responsive portfolio website with dark/light mode theme switching and 
 
 ## Setup Instructions
 
-1. **Add Your Certification Images**
-   - Place your certification images in the `images/` folder
-   - Name them as: `cert1.jpg`, `cert2.jpg`, `cert3.jpg`, `cert4.jpg`
-   - Recommended size: 800x600px or similar aspect ratio
-
-2. **Customize Content**
+1. **Customize Content**
    - Open `index.html` and update:
      - Your name in the hero section
      - About me text
@@ -52,7 +47,7 @@ A modern, responsive portfolio website with dark/light mode theme switching and 
      - Contact information
      - Social media links
 
-3. **Color Customization**
+2. **Color Customization**
    - Edit CSS variables in `styles.css` (lines 6-20) to change colors:
      ```css
      --primary-color: #6366f1;
@@ -60,7 +55,7 @@ A modern, responsive portfolio website with dark/light mode theme switching and 
      --accent-color: #ec4899;
      ```
 
-4. **Open the Website**
+3. **Open the Website**
    - Simply open `index.html` in your web browser
    - Or use a local server for better performance
 
@@ -116,7 +111,27 @@ portfolio/
 
 ## License
 
-Feel free to use this template for your personal portfolio!
+MIT License
+
+Copyright (c) 2026 chandu934-Hub
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Credits
 
@@ -128,5 +143,6 @@ Feel free to use this template for your personal portfolio!
 ---
 
 **Need help?** Feel free to customize any part of the code to match your style!
+
 
 
