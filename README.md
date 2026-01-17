@@ -128,7 +128,9 @@ Feel free to use this template for your personal portfolio!
 - Icons: [Font Awesome](https://fontawesome.com/)
 - Design: Custom modern design
 - Built with ❤️ for developers
-![alt text](image.png)
+<img width="1887" height="910" alt="image" src="https://github.com/user-attachments/assets/a0681cdc-a327-41a2-8c46-9842e56a07ba" />
+
 ---
 
 **Need help?** Feel free to customize any part of the code to match your style!
+
