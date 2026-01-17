@@ -70,12 +70,7 @@ A modern, responsive portfolio website with dark/light mode theme switching and 
 portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # All styles and animations
-├── script.js           # JavaScript functionality
-├── images/             # Your images folder
-│   ├── cert1.jpg
-│   ├── cert2.jpg
-│   ├── cert3.jpg
-│   └── cert4.jpg
+├── script.js           # JavaScript functionality  
 └── README.md          # This file
 ```
 
@@ -133,4 +128,5 @@ Feel free to use this template for your personal portfolio!
 ---
 
 **Need help?** Feel free to customize any part of the code to match your style!
+
 
